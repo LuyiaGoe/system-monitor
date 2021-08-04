@@ -81,20 +81,8 @@
    - `ps -No [tableHead] | grep [user] | grep -v grep | awk '{print $[column],...}'`获取进程详细信息
    - `kill -SIG PID`控制进程
 
-3. 利用 vue-test-utils、Mocha 测试框架和 Chai 断言库进行自动化测试
-4. 进程页面显示用户进程，并利用 node 提供控制方法
+3. 进程页面显示用户进程，并利用 node 提供控制方法
 
 - 桌面端提供右键菜单，显示各种控制功能
 
-5. 性能页面显示终端的各种信息，并可以自定义显示
-
-## TODO
-
-1. webpack 管理资源(vue.config.js)
-
-## Additional
-
-1. 引入国际化资源控制，做好中英文切换功能
-2. 应用性能监控（对首屏、刷新、帧率等）
-3. 使用 babel 在 webpack 配置下生成不同版本的代码（测试、开发、生产）
-4. system-monitor 取拿系统资源信息使用 callc、sysutils、ctypes 分别实现；（平板终端）
+4. 性能页面显示终端的各种信息，并可以自定义显示
